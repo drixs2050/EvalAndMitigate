@@ -1,5 +1,7 @@
 # Evaluating and Mitigating the Misguidance Effect of Buggy Code in LLM-Generated Unit Tests
 
+[![DOI](https://zenodo.org/badge/1304820610.svg)](https://zenodo.org/badge/latestdoi/1304820610)
+
 Replication package for the paper:
 
 > Junda Zhao, Shurui Zhou, and Eldan Cohen. **Evaluating and Mitigating the Misguidance Effect of Buggy Code in LLM-Generated Unit Tests.** *Proceedings of the ACM on Software Engineering* 3, ISSTA, Article ISSTA113 (2026). DOI: [10.1145/3832204](https://doi.org/10.1145/3832204)
@@ -130,6 +132,10 @@ The [Prompt_example](Prompt_example) directory contains complete example prompts
   doi       = {10.1145/3832204}
 }
 ```
+
+## License
+
+This package is released under the [MIT License](LICENSE). Portions adapted from third-party works (LLM4UT, tree-sitter-java, Defects4J) retain their original licenses — see [NOTICE](NOTICE).
 
 ## Acknowledgments
 

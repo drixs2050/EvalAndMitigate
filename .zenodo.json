@@ -1,0 +1,44 @@
+{
+  "title": "Replication Package for \"Evaluating and Mitigating the Misguidance Effect of Buggy Code in LLM-Generated Unit Tests\"",
+  "description": "<p>Replication package for the paper <em>Evaluating and Mitigating the Misguidance Effect of Buggy Code in LLM-Generated Unit Tests</em> (Proceedings of the ACM on Software Engineering 3, ISSTA, 2026). It contains the data preprocessing scripts, prompt-construction and test-generation pipeline, evaluation harness for Defects4J, sequence-score analysis, prompt examples, and the manual inspection results.</p>",
+  "creators": [
+    {
+      "name": "Zhao, Junda",
+      "affiliation": "University of Toronto",
+      "orcid": "0000-0003-4978-4128"
+    },
+    {
+      "name": "Zhou, Shurui",
+      "affiliation": "University of Toronto",
+      "orcid": "0000-0002-6346-6073"
+    },
+    {
+      "name": "Cohen, Eldan",
+      "affiliation": "University of Toronto",
+      "orcid": "0000-0001-5767-6683"
+    }
+  ],
+  "upload_type": "software",
+  "license": "MIT",
+  "keywords": [
+    "software testing",
+    "unit test generation",
+    "large language models",
+    "specification-based testing",
+    "bug detection",
+    "Defects4J"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1145/3832204",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/drixs2050/EvalAndMitigate",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Third-party notices
+===================
+
+This replication package is licensed under the MIT License (see LICENSE).
+It incorporates or derives from the following third-party works:
+
+1. LLM4UT (Yang et al., "On the Evaluation of Large Language Models in Unit
+   Test Generation", ASE 2024)
+   Portions of the prompt-construction and evaluation harness (parts of
+   utils/, rq1/, and the evaluation notebooks) are adapted from the LLM4UT
+   artifact, which is licensed under the Mulan Permissive Software License,
+   Version 2 (Mulan PSL v2), http://license.coscl.org.cn/MulanPSL2
+
+2. tree-sitter-java (data/tree-sitter-java/)
+   Vendored copy of the tree-sitter Java grammar, licensed under the MIT
+   License (see data/tree-sitter-java/LICENSE).
+
+3. Defects4J (https://github.com/rjust/defects4j)
+   Bug metadata under data/d4j2_fix_info/ and related data files are derived
+   from the Defects4J benchmark (MIT License). The source code excerpts they
+   contain remain under the licenses of the respective upstream projects
+   (e.g., Apache Commons, JFreeChart, Google Closure Compiler).

@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the paper below."
+title: >-
+  Replication Package for "Evaluating and Mitigating the Misguidance Effect
+  of Buggy Code in LLM-Generated Unit Tests"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/drixs2050/EvalAndMitigate"
+authors:
+  - family-names: Zhao
+    given-names: Junda
+    orcid: "https://orcid.org/0000-0003-4978-4128"
+    affiliation: University of Toronto
+  - family-names: Zhou
+    given-names: Shurui
+    orcid: "https://orcid.org/0000-0002-6346-6073"
+    affiliation: University of Toronto
+  - family-names: Cohen
+    given-names: Eldan
+    orcid: "https://orcid.org/0000-0001-5767-6683"
+    affiliation: University of Toronto
+preferred-citation:
+  type: article
+  title: >-
+    Evaluating and Mitigating the Misguidance Effect of Buggy Code in
+    LLM-Generated Unit Tests
+  authors:
+    - family-names: Zhao
+      given-names: Junda
+      orcid: "https://orcid.org/0000-0003-4978-4128"
+    - family-names: Zhou
+      given-names: Shurui
+      orcid: "https://orcid.org/0000-0002-6346-6073"
+    - family-names: Cohen
+      given-names: Eldan
+      orcid: "https://orcid.org/0000-0001-5767-6683"
+  journal: Proceedings of the ACM on Software Engineering
+  volume: 3
+  issue: ISSTA
+  year: 2026
+  doi: 10.1145/3832204
