@@ -119,6 +119,8 @@ The [Prompt_example](Prompt_example) directory contains complete example prompts
 
 ## Citation
 
+This package is permanently archived on Zenodo: [10.5281/zenodo.21428153](https://doi.org/10.5281/zenodo.21428153) (all versions). To cite the paper:
+
 ```bibtex
 @article{zhao2026misguidance,
   author    = {Zhao, Junda and Zhou, Shurui and Cohen, Eldan},

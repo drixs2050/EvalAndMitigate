@@ -6,6 +6,10 @@ title: >-
 version: 1.0.0
 license: MIT
 repository-code: "https://github.com/drixs2050/EvalAndMitigate"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21428153
+    description: "Zenodo archive (all versions)"
 authors:
   - family-names: Zhao
     given-names: Junda
