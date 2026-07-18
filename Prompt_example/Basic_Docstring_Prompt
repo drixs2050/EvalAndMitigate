@@ -1,0 +1,29 @@
+You are professional java developer, please help me identify the intention and functionality of the method detailed below.
+
+```
+// The following code is the method that you are going to summarize.
+public String generateToolTipFragment(String toolTipText) {
+        return " title=\"" + ImageMapUtilities.htmlEscape(toolTipText)
+            + "\" alt=\"\"";
+    }
+
+// The parameter of the method:
+toolTipText
+
+// The parameters come from:
+java.lang.String
+
+// The return type of the method:
+String
+
+// The method belongs to the class:
+org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator
+
+// Constructor:
+public StandardToolTipTagFragmentGenerator();
+
+// Other methods
+public StandardToolTipTagFragmentGenerator();
+
+```
+Please provide a formal docstring that identifies the functionality and intention of the given method. Please avoid directly quoting from the focal method code as it might be buggy and output only the docstring.

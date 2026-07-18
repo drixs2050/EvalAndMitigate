@@ -1,0 +1,50 @@
+You are a professional who writes Java test methods. Please help me write some unit tests in java language, details are listed below: 
+
+```
+// The following is the docstring of the method that you are going to test.
+
+/**
+ * Generates an HTML fragment for a tooltip attribute, typically used in image maps.
+ * The method takes a tooltip text as input, escapes any HTML-sensitive characters
+ * to ensure proper rendering and security, and returns a formatted string that can
+ * be embedded within an HTML element's attributes.
+ *
+ * The generated fragment includes the `title` attribute, which is commonly used
+ * to display tooltips in web browsers, and an empty `alt` attribute, which is
+ * often included for accessibility or compatibility reasons.
+ *
+ * @param toolTipText The text to be displayed as a tooltip. This text will be
+ *                    HTML-escaped to prevent injection vulnerabilities and ensure
+ *                    proper rendering.
+ * @return A string representing the HTML fragment for the tooltip, including the
+ *         `title` and `alt` attributes. The `title` attribute contains the escaped
+ *         tooltip text, and the `alt` attribute is left empty.
+ */
+
+
+// The full method signature is:
+org.jfree.chart.imagemap#StandardToolTipTagFragmentGenerator#generateToolTipFragment(java.lang#String)
+
+// The method name is:
+generateToolTipFragment
+
+// The parameter of the method:
+toolTipText
+
+// The parameters come from:
+java.lang.String
+
+// The return type of the method:
+String
+
+// The method belongs to the class:
+org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator
+
+// Constructor:
+public StandardToolTipTagFragmentGenerator();
+
+// Other methods
+public StandardToolTipTagFragmentGenerator();
+
+```
+Please write some unit tests in Java 11 and Junit 4 with maximizing both branch and line coverage. Please ensure that the output format is Markdown, and no explanations needed.

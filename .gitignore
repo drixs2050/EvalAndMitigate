@@ -1,0 +1,23 @@
+# Paper source (not part of the public artifact)
+*.tex
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Built at runtime by data/configuration.py
+data/build/*.so
+
+# Created by checkout_all.sh (Defects4J checkouts, very large)
+d4j_proj_base/
+
+# Intermediate/temporary outputs
+data/tmp/
+data/outputs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
